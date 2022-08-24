@@ -1,0 +1,13 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	int a, b;
+	cout << "Nhap a: " << endl;
+	cin >> a;
+	cout << "Nhap b: " << endl;
+	cin >> b;
+	cout << "So du= " << a % b << endl;
+	return 0;
+}
